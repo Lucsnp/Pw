@@ -17,9 +17,10 @@
 .retangulo{
     display: flex;
     width: 100%;
-    bottom: -40px;
     justify-content: center;
-    align-items: end;
+    
+    bottom: -40px;  //não precisa mais
+    align-items: end; //não precisa mais
 }
 
 .caixas{
