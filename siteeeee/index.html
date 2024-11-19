@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sla</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+ 
+    <script>
+
+        function saudacao(){
+
+            alert("Seja bem-vindo!(a)");
+
+        }
+
+        function backgroundRed(){
+            document.body.style.backgroundColor = "rgb(255,0,0)"
+        }
+
+        
+        function backgroundGreen(){
+            document.body.style.backgroundColor = "rgb(0,255,0)"
+        }
+
+        
+        function backgroundBlue(){
+            document.body.style.backgroundColor = "rgb(0,0,255)"
+        }
+
+        function backgroundWhite(){
+            document.body.style.backgroundColor = "rgb(255,255,255)"
+        }
+
+        function remover(){
+            document.getElemmentById("quadrado").style.display = "none";
+        }
+
+    </script>
+
+    <section>
+
+        <div id="quadrado" class="quadrado">
+
+        </div>
+        
+    </section>
+
+    <form>
+
+        <button type="button" onclick="backgroundRed()"> Vermelho </button>
+
+        <button type="button" onclick="backgroundGreen()"> Verde </button>
+
+        <button type="button" onmouseover="backgroundBlue()" onmouseout="backgroundWhite()"> Azul </button>
+
+        <button type="button" onclick="remover()"> Tira luiz </button>
+
+    </form>
+
+</body>
+</html>

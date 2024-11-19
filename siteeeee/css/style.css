@@ -1,0 +1,19 @@
+
+button{
+    border: 1.5px solid purple;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+.quadrado{
+    border: 1px solid purple;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
