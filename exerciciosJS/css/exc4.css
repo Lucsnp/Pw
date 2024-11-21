@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0; 
+    
+}
+
+a{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color:rgb(20, 8, 74);
+}
+
+header{
+    background-color: rgb(18, 11, 49);
+    width: 100wh;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+input, button {
+    margin: 5px;
+}
+
+.resultado {
+    margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="./css/exc3.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">Início</a>
+        </div>
+    </header>
+
+    <h1>Mês de aniversário</h1>
+
+    <form class="formulario">
+
+        <input id="mes" placeholder="Digite um número">
+        
+        <button id="send" type="button" onclick="aniversario()">Calcular</button>
+        
+    </form>
+
+    <script>
+
+        function aniversario(){
+
+            let mes = parseInt(document.getElementById("mes").value);
+
+            switch(mes){
+                
+                case 1:
+                    alert("Você nasceu em Janeiro!");
+                break;
+                
+                case 2:
+                     alert("Você nasceu em Fevereiro!");
+                break;
+               
+                case 3:
+                    alert("Você nasceu em Março!");
+                break;
+                
+                case 4:
+                    alert("Você nasceu em Abril!")
+                break;		
+                
+                case 5:
+                    alert("Você nasceu em Maio!");
+                break;		
+                    
+                case 6:
+                    alert("Você nasceu em Junho!");
+                break;
+
+                case 7:
+                    alert("Você nasceu em Julho!");
+                break;
+              
+                case 8:
+                    alert("Você nasceu em Julho!");           
+                break;
+                                
+                case 9:
+                    alert("Você nasceu em Setembro!");
+                break;
+                                    
+                case 10:
+                    alert("Você nasceu em Outubro!");
+                break;                
+                                        
+                case 11:
+                    alert("Você nasceu em Novembro!");
+                break;
+                
+                case 12:
+                    alert("Você nasceu em Dezembro!");
+                break;
+                        
+                default: 
+                        alert("Então tá...");
+                        }
+        }
+    </script>
+
+</body>
+</html>
